@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Amy Varisli | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+  <header>
+   <nav>
+    <h1>AMY VARISLI</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+     </nav>
+  </header>
+
+ <!-- Hero Section -->
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/amyv.png"
+        alt="amy-varisli" 
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          <h2>Hello! My name is Amy Varisli</h2>
+          <p>I'm a front end developer who creates elegant, 
+              performant and 
+              accessible digital experiences based in Calgary CA. 
+          </p>
+        </p>
+      </div>
+</section>
+   
+    <!-- More about -->
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+        <p>With a determined mindset and an eagerness to expand my knowledge in the world of technology,
+          I am a dedicated challenger who never gives up on achieving my goals. 
+          <br>
+          I was inspired by one of my close friends who is a front-end developer. 
+          After receiving her advice, I conducted extensive research about the field of front-end development. 
+          As I delved deeper, I found the profession to be fascinating, and soon realized 
+          that it aligned perfectly with my personality.
+          <br><br>
+          I thrive in social settings and enjoy being around friends and family. 
+          When I'm not behind the screen, you can find me immersed in the beauty of nature with my loved ones, 
+          exploring the great outdoors through adventurous hikes, 
+          camping and peaceful fishing trips to be a great way 
+          to disconnect from technology and unwind.
+        </p>
+    </section>
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-container">
+      <div class="project-container project-card">
+        <a href="https://amy-mv.github.io/Guess-The-Word-Game/" target="_blank">
+          <img
+          src="assets/images/guess-word.png"
+          alt="guess-word"
+          loading="lazy"
+          class="project-pic"
+        /></a>
+          <h3 class="project-title">Guess The Word Game</h3>
+          <p class="project-details">
+            A fun guessing game where players guess the word 
+            by entering one letter at a time. 
+            If the player guesses all the letters correctly 
+            before they use up their allotted guesses, they win!
+          </p>
+          <br>
+          <p><span>Skills:</span> Manipulate the DOM, Vanilla JavaScript.</p>
+          <p><span>Tools:</span> GitHub, JSON.</p>
+          <a href="https://amy-mv.github.io/Guess-The-Word-Game/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <a href="https://9i33sh.csb.app/ " target="_blank">
+            <img
+            src="assets/images/sticky-note.png"
+            alt="sticky-note"
+            loading="lazy"
+            class="project-pic"
+          /></a>
+          <h3 class="project-title">Sticky Notes App</h3>
+          <p class="project-details">
+             An interactive app that will let users create "sticky notes".
+             Uses multiple components to build the sticky note UI with 
+             the ability to add, edit, delete and search for notes.</p>
+          <br>
+          <p><span>Skills:</span> JSX, ES6, Data Flow, DOM Manipulation, Local Storage.</p>
+          <p><span>Tools:</span>CodeSandbox, Props, State.</p>
+          </p>
+          <a href="https://9i33sh.csb.app/ " target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <a href="https://amy-mv.github.io/Unplugged/ " target="_blank">
+            <img
+            src="assets/images/unplugged.jpg"
+            alt="unplugged"
+            loading="lazy"
+            class="project-pic"
+          /></a>
+          <h3 class="project-title">Unplugged</h3>
+          <p class="project-details">
+            A multi page responsive website from a design comp that adapts to mobile, 
+            tablet, and desktop screens.</p>
+           <br>
+           <p><span>Skills:</span> HTML5, CSS3, Flexbox, 
+              Responsive Typography, Media Queries, Photoshop.</p>
+           <p><span>Tools:</span>Github, Visual Studio Code.</p>
+          <a href="https://amy-mv.github.io/Unplugged/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <a href="https://t2qold.csb.app/" target="_blank">
+            <img
+            src="assets/images/hotel-booking.png"
+            alt="hotel-booking"
+            loading="lazy"
+            class="project-pic"
+          /></a>
+          <h3 class="project-title">Hotel Booking App</h3>
+          <p class="project-details">
+            Build a hotel search tool that allows to filter 
+            the type of hotel to stay in.</p>
+            <br>
+            <p><span>Skills:</span> React, ES6, JSX, 
+               Managing data flow, Manipulate the DOM </p>
+            <p><span>Tools:</span>CodeSandbox.</p>
+           
+          <a href="https://t2qold.csb.app/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <a href="https://amy-mv.github.io/github-repo-gallery/" target="_blank">
+            <img
+            src="assets/images/github-repo.png"
+            alt="github-repo"
+            loading="lazy"
+            class="project-pic"
+          /></a>
+          <h3 class="project-title">Github Repo Gallery</h3>
+          <p class="project-details">
+             A customized responsive gallery of my repositories using GitHub's API  to pull data from my Github portfolio to create a gallery of repos. 
+             Visitors to the site can click on the repos to see more details and a link to the repo.</p>
+            <br>
+            <p>
+              <span>Skills:</span> APIs, JavaScript, Manipulate the DOM 
+            </p>
+            <p>
+              <span>Tools:</span>REST API, Github.
+            </p>
+           <a href="https://amy-mv.github.io/github-repo-gallery/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/amy-varisli-838746250/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Amy-MV" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+     </div>
+
+     <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt=""
+  /></i>
+
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Amy-Varisli</a>
+        >
+      </p>
+</footer>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
